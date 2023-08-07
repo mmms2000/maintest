@@ -45,6 +45,7 @@ function MainWrite() {
 }
 
 const StWriteHeader = styled.div`
+    width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -52,6 +53,7 @@ const StWriteHeader = styled.div`
 `;
 
 const StWriteBody = styled.div`
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
